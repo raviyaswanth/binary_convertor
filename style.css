@@ -21,7 +21,7 @@ justify-content : center;
 align-items : center;
 }
 .conversions{
-height : 80vh;
+height : 85vh;
 width : 80%;
 background : #645353;
 display : flex;
@@ -30,7 +30,7 @@ margin : auto;
 color : white;
 justify-content : space-between;
 border-radius : 20px;
-padding : 15px;
+padding : 25px;
 }
 .conversions h3{
 font-size : 25px;
@@ -59,6 +59,69 @@ border-radius : 10px;
 font-size : 25px;
 font-weight : bold;
 }
+.adder{
+background : #645353;
+width : 80%;
+padding : 15px;
+margin : 20px auto 20px auto;
+border-radius : 20px;
+height : 75vh;
+display : flex;
+flex-direction : column;
+justify-content : space-between;
+color : white;
+font-weight : bold;
+}
+.answer{
+font-size : 25px;
+background : black;
+height : 40px;
+color : white;
+width : 70%;
+padding : 7px;
+border-radius : 15px;
+display : flex;
+align-items : center;
+}
+.adder input{
+background : black;
+color : white;
+font-size : 25px;
+font-weight : bold;
+height : 40px;
+width : 70%;
+border-radius : 15px;
+}
+.adder button{
+width : 30%;
+margin : 20px auto 20px auto;
+background : black;
+font-size : 20px;
+padding : 5px;
+color : white;
+border-radius : 10px;
+height : 40px;
+}
+.adder p{
+font-size : 25px;
+}
+
+footer{
+background : #372B2B;
+display : flex;
+justify-content : space-around;
+align-items : center;
+color : white;
+padding : 20px;
+}
+footer a{
+margin : 20px;
+border-radius : 100%;
+}
+footer div{
+display : flex;
+}
+
 
 @media screen and (max-width: 480px) {
  .conversions{
@@ -67,5 +130,17 @@ height : 100%;
 }
 h1{
 font-size : 25px;
+}
+.adder button{
+width : 40%;
+}
+.conversions button{
+width : 50%;
+}
+.adder input{
+font-size : 20px;
+}
+footer{
+flex-wrap :wrap;
 }
 }
